@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { Searchbar } from './SearchBar/SearchBar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { LoadMore } from './Button/Button';
-import { Modal } from './Modal/Modal';
+import { Modal } from 'components/Modal/Modal';
 import { serviceApi } from '../ServiceApi/Service';
 import { Loader } from './Loader/Loader';
 import PropTypes from 'prop-types';

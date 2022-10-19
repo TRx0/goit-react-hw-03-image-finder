@@ -1,8 +1,8 @@
 import { createPortal } from 'react-dom';
-import css from './Modal.css';
+import css from './Modal.module.css';
 import { Component } from 'react';
 
-const overlay = document.getElementById('modal-root');
+const overlay = document.getElementById('root');
 
 export class Modal extends Component {
   componentDidMount() {

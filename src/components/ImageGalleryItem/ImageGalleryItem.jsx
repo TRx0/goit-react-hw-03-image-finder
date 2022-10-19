@@ -1,4 +1,4 @@
-import css from './ImageGalleryItem.css';
+import css from './ImageGalleryItem.module.css';
 
 export const ImageGalleryItem = ({ objectHits, handleModal }) => {
   return objectHits.map(({ id, webformatURL, largeImageURL, tags }) => {

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const serviceApi = async (searchQuery, page) => {
-  const API_KEY = '29112190-958e52871e0e9d14dd5397067';
+  const API_KEY = '29309322-ee9bc20eed6bcd222e62c0560';
   const PROPERTIES = 'image_type=photo&orientation=horizontal';
   const PER_PAGE = '12';
   const image = await axios.get(

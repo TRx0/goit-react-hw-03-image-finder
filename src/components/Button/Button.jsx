@@ -1,4 +1,4 @@
-import css from './Button.css';
+import css from './Button.module.css';
 import PropTypes from 'prop-types';
 
 export const LoadMore = ({ onLoadMore }) => {
